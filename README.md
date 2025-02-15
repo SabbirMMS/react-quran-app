@@ -13,7 +13,7 @@ You can find the repository for this project [here](https://github.com/SabbirMMS
 
 ## Live URL
 
-The live version of the application can be accessed [here](#).
+The live version of the application can be accessed [here](https://react-quran-app-two.vercel.app).
 
 ## Getting Started
 
