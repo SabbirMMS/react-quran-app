@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #4caf50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  z-index: 1000;
+}
+
+
+.surah-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1280px;
+  width: 100%;
+}
+
+.surah-item {
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #2e2e2e;
+  flex: 1 1 calc(33.333% - 1rem);
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.surah-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.surah-item p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+  color: #4caf50;
+  display: block;
+  text-align: center;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
